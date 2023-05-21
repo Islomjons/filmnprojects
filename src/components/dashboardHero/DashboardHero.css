@@ -1,0 +1,37 @@
+.hero {
+
+}
+
+.container {
+
+}
+
+.hero__container {
+    display: flex;
+}
+
+.hero__list {
+    max-width: 55px;
+    width: 100%;
+    background: #20735F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 18px;
+}
+
+.hero__item {
+
+}
+
+.active__hero__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 46px;
+    background: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

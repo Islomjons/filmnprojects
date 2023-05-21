@@ -1,0 +1,226 @@
+.historyComments {
+    
+}
+
+.historyComments__container {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 34px 20px 20px;
+    margin-bottom: 32px;
+}
+
+.historyComments__wrapper__side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historyComments__left__side {
+    display: flex;  
+    align-items: center;
+    gap: 15px;
+}
+
+.historyComments__left__img {
+    width: 50px;
+    height: 50px;
+}
+
+.historyComments__left__side__info {
+    
+}
+
+.historyComments__left__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+    margin-bottom: 3px;
+}
+
+.historyComments__left__text::after {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 6px;
+    background-image: url("../../assets/images/check.svg");
+}
+
+.historyComments__left__text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.historyComments__right__side {
+    display: flex;
+    gap: 30px;
+}
+
+.historyComments__right__img1 {
+    width: 17px;
+    height: 16px;
+}
+
+.historyComments__right__img2 {
+    width: 12px;
+    height: 16px;
+}
+
+.historyComments__bottom__side {
+    padding-top: 4px;
+    padding-left: 65px;
+    padding-right: 41px;
+}
+
+.historyComments__bottom__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+    margin-bottom: 21px;
+}
+
+.historyComments__bottom__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.historyComments__bottom__item {
+    border-right: 1px solid #000000;
+}
+
+.historyComments__bottom__item:last-child {
+    border: none;
+}
+
+.historyComments__bottom__wrapper {
+    margin-right: 35px;
+}
+
+.historyComments__bottom__link1 {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+.historyComments__bottom__link2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.historyComments__lists__wrapper {
+    margin-bottom: 21px;
+}
+
+.historyComments__lists__wrapper::after {
+    content: "";
+    display: inline-block;
+    width: 1059px;
+    border: 1px solid #4261cc1a;
+}
+
+.historyComments__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.historyComments__item {
+    
+}
+
+.historyComments__links {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+.active__historyComments__links {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    color: #3E3E3E;
+}
+
+.historyComments__info__lists {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.historyComments__info__item {
+    margin-bottom: 20px;
+}
+
+.historyComments__info__item::after {
+    content: "";
+    display: inline-block;
+    border: 1px solid #E9EBF3;
+    width: 1015px;
+    margin-top: 20px;
+}
+
+.historyComments__info__item:last-child::after {
+    border: none;
+}
+
+.historyComments__info__item__wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.historyComments__info__img {
+    width: 90px;
+    height: 69px;
+}
+
+.historyComments__info__lists__wrapper {
+    
+}
+
+.historyComments__info__heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.historyComments__info__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}

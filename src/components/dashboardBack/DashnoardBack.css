@@ -1,0 +1,242 @@
+.dashboardback {
+    max-width: 1110px;
+    width: 100%;
+    background: #F4F4FB;
+    padding: 30px 20px 155px 20px;
+}
+
+.dashboardback__container {
+    
+}
+
+.dashboardback__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 19px;
+}
+
+.dashboardback__btn {
+    border: 1px solid #20735F;
+    border-radius: 50%;
+    padding: 10px 13px 10px 11px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardback__icon {
+    
+}
+
+.dashboardback__text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.dashboardback__text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    color: #071C3F;
+}
+
+.dashboardback__bottom__wrapper {
+    
+}
+
+.dashboardback__bottom__wrapper__infos {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardback__bottom__list {
+    
+}
+
+.dashboardback__bottom__item {
+    display: flex;
+    gap: 15px;
+}
+
+.dashboardback__bottom__img {
+    width: 100px;
+    height: 100px;
+}
+
+.dashboardback__bottom__info {
+    
+}
+
+.dashboardback__bottom__text1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.dashboardback__bottom__text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.dashboardback__bottom__list__info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.dashboardback__bottom__item__info {
+    border-right: 1px solid #000000;
+}
+
+.dashboardback__bottom__item__info:last-child {
+    border: none;
+}
+
+.dashboardback__bottoms__border {
+    margin-right: 35px;
+}
+
+.dashboardback__bottom__item__link {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    color: #212121;
+    text-decoration: none;
+}
+
+.dashboardback__bottom__item__link1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+.dashboardback__bottom__wrapper {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 18px 20px 21px 20px;
+    margin-bottom: 30px;
+}
+
+.dashboardback__bottom__right {
+    background: #F0F9F6;
+    border-radius: 18px;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboardback__bottom__right__num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #6A9586;
+}
+
+.dashboardback__bottom__right__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6A9586;
+}
+
+.dashboardback__bottom__wrapper__sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardback__bottom__left__sides {
+    max-width: 810px;
+    width: 100%;
+}
+
+.dashboardback__bottom__left__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.dashboardback__bottom__right__sides {
+    display: flex;
+    gap: 26px;
+}
+
+.dashboardback__bottom__right__img1 {
+    width: 20px;
+    height: 18px;
+}
+
+.dashboardback__bottom__right__img2 {
+    width: 16px;
+    height: 20px;
+}
+
+.dashboardback__item__lists__wrapper {
+    margin-bottom: 30px;
+}
+
+.dashboardback__item__lists__wrapper::after {
+    content: "";
+    display: inline-block;
+    width: 1060px;
+    border: 1px solid #E9EBF3;
+}
+
+.dashboardback__item__lists {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.dashboardback__item__items {
+    
+}
+
+.dashboardback__item__items__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #6E6E6E;
+    
+}
+
+.active__dashboardback__item__items__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #3E3E3E;
+}

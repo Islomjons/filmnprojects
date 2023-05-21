@@ -1,0 +1,40 @@
+.back {
+    max-width: 1110px;
+    width: 100%;
+    background: #F4F4FB;
+    padding: 30px 20px 123px 20px;
+}
+
+.back__container {
+    
+}
+
+.back__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.back__btn {
+    border: 1px solid #20735F;
+    border-radius: 50%;
+    padding: 10px 13px 10px 11px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}

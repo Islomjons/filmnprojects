@@ -1,0 +1,237 @@
+.postsprofile {
+    
+}
+
+.postsprofile__container {
+    padding: 18px 20px 21px 20px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.postsprofile__top__wrapper__side {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.postsprofile__top__left {
+    display: flex;
+    gap: 15px;
+}
+
+.postsprofile__top__img {
+    width: 100px;
+    height: 100px;
+}
+
+.postsprofile__top__left__wrapper {
+    
+}
+
+.postsprofile__top__left__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+    margin-bottom: 3px;
+}
+
+.postsprofile__top__left__text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.postsprofile__top__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.postsprofile__top__item {
+    border-right: 1px solid #000000;
+}
+
+.postsprofile__top__item:last-child {
+    border: none;
+}
+
+.postsprofile__top__item__wrapper {
+    margin-right: 30px;
+}
+
+.postsprofile__top__item__number {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.postsprofile__top__item__text {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}
+
+.postsprofile__top__right {
+    background: #F0F9F6;
+    border-radius: 18px;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.postsprofile__top__right__number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #6A9586;
+    
+}
+
+.postsprofile__top__right__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6A9586;
+}
+
+.postsprofile__bottom__wrapper__side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postsprofile__bottom__left__side {
+    max-width: 810px;
+    width: 100%;
+}
+
+.postsprofile__bottom__left__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.postsprofile__bottom__right {
+    display: flex;
+    gap: 26px;
+}
+
+.postsprofile__bottom__right__img {
+    width: 20px;
+    height: 18px;
+}
+
+.postsprofile__bottom__right__img1 {
+    width: 16px;
+    height: 20px;
+}
+
+.postsprofile__bottom__list__wrapper {
+    margin-bottom: 30px;
+}
+
+.postsprofile__bottom__list__wrapper::after {
+    content: "";
+    display: inline-block;
+    width: 1060px;
+    border: 1px solid #E9EBF3;
+}
+
+.postsprofile__bottom__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.postsprofile__bottom__item {
+    
+}
+
+.postsprofile__bottom__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #6E6E6E;
+}
+
+.active__postsprofile__bottom__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #3E3E3E;
+}
+
+.postsprofile__cards__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.postsprofile__cards__item {
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 340px;
+    width: 100%;
+}
+
+.postsprofile__cards__img {
+    
+}
+
+.postsprofile__cards__list__wrapper {
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    display: flex;
+    gap: 11px;
+}
+
+.postsprofile__cards__list__info {
+
+}
+
+.postsprofile__cards__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.postsprofile__cards__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+    opacity: 0.7;
+}

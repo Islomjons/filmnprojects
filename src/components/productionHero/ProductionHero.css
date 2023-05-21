@@ -1,0 +1,41 @@
+.productionhero {
+    
+}
+
+.container {
+    
+}
+
+.production__hero__container {
+    display: flex;
+}
+
+.production__hero__list {
+    max-width: 55px;
+    width: 100%;
+    background: #C05D3E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 18px;
+}
+
+.production__hero__item {
+
+}
+
+.active__production__hero__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 46px;
+    height: 47px;
+}
+
+.production__hero__img {
+
+}

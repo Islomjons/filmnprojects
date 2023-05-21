@@ -1,0 +1,41 @@
+.preProfileHero {
+
+}
+
+.container {
+
+}
+
+.preProfileHero__container {
+    display: flex;
+}
+
+.preProfileHero__list {
+    max-width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background: #20735F;
+    padding-top: 18px;
+}
+
+.preProfileHero__item {
+
+}
+
+.active__preProfileHero__item {
+    width: 47px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.preProfileHero__img {
+
+}

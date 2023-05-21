@@ -1,0 +1,41 @@
+.postProductionHero {
+
+}
+
+.container {
+
+}
+
+.post__production__hero__container {
+    display: flex;
+}
+
+.post__production__hero__list {
+    max-width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background: #317396;
+    padding-top: 18px;
+}
+
+.post__production__hero__item {
+
+}
+
+.active__post__production__hero__item {
+    width: 47px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.post__production__hero__img {
+
+}

@@ -1,0 +1,41 @@
+.historyHero {
+
+}
+
+.container {
+
+}
+
+.historyHero__container {
+    display: flex;
+}
+
+.historyHero__list {
+    max-width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background: #20735F;
+    padding-top: 18px;
+}
+
+.historyHero__item {
+
+}
+
+.active__historyHero__item {
+    width: 47px;
+    height: 46px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.historyHero__img {
+
+}

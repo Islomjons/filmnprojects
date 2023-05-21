@@ -1,0 +1,128 @@
+.postProductionProducerCards {
+    
+}
+
+.postProductionProducerCards__container {
+    
+}
+
+.postProductionProducerCards__list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.postProductionProducerCards__item {
+    max-width: 340px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px #4261cc0d;
+    border-radius: 13px;
+    transition: 0.3s ease;
+}
+
+.postProductionProducerCards__item:hover {
+    transform: scale(1.03);
+}
+
+.postProductionProducerCards__img {
+    width: 340px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.postProductionProducerCards__wrapper {
+    padding: 13px 20px 18px 20px;
+    display: flex;
+    gap: 8px;
+}
+
+.postProductionProducerCards__left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.postProductionProducerCards__profile__img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.postProductionProducerCards__profile__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    color: #3E3E3E;
+}
+
+.postProductionProducerCards__right {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.postProductionProducerCards__right__num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FF8718;
+}
+
+.postProductionProducerCards__wrapper__info {
+    padding: 0px 20px 10px 20px;
+}
+
+.postProductionProducerCards__info__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6E6E6E;
+    margin-bottom: 10px;
+}
+
+.postProductionProducerCards__location__wrapper__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postProductionProducerCards__location__wrapper {
+    display: flex;
+    gap: 6px;
+}
+
+.postProductionProducerCards__location__icon {
+    width: 9px;
+    height: 13px;
+}
+
+.postProductionProducerCards__location__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #939393;
+}
+
+.postProductionProducerCards__like__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.postProductionProducerCards__like__icon {
+    width: 14px;
+    height: 14px;
+}
+
+.postProductionProducerCards__like__icon1 {
+    width: 9px;
+    height: 13px;
+}

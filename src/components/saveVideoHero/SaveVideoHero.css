@@ -1,0 +1,44 @@
+.hero2 {
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__container2 {
+    display: flex;
+}
+
+.hero__list2 { 
+    max-width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    background: #20735F;
+    padding-top: 18px;
+}
+
+.hero__item2 {
+
+}
+
+.hero__active__item2 {
+    width: 47px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.hero__icon2 {
+
+}
