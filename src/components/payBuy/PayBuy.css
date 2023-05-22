@@ -1,0 +1,130 @@
+.buy {
+    max-width: 340px;
+    width: 100%;
+}
+
+.buy__wrapper {
+    
+}
+
+.buy__container {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.buy__img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.buy__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.buy__item {
+    
+}
+
+.buy__img1 {
+    width: 60px;
+    height: 60px;
+}
+
+.buy__btn__wrapper {
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.buy__btn {
+    max-width: 300px;
+    width: 100%;
+    background: #20735F;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+}
+
+.buy__bottom__wrapper {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buy__bottom__heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.buy__bottom__wrapper__info {
+    margin-bottom: 20px;
+}
+
+.buy__bottom__wrapper__info::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #E9EBF3;
+}
+
+.buy__bottom__img__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buy__bottom__img {
+    width: 36px;
+    height: 36px;
+}
+
+.buy__bottom__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.buy__bottom__btns {
+    width: 300px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #20735F;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #20735F;
+    border-radius: 6px;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}

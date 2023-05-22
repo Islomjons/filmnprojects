@@ -91,7 +91,7 @@ const SaveVideoFooter = () => {
                 <p className="footer__bottom__text3">Terms and Conditions</p>
           </div>
     </div>
-</div>
+    </div>
   )
 }
 

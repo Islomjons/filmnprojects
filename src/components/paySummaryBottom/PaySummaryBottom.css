@@ -1,0 +1,32 @@
+.summaryBottom {
+}
+
+.summaryBottom__container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.summaryBottom__heading {
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.summaryBottom__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}

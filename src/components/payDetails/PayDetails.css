@@ -1,0 +1,32 @@
+.details {
+    
+}
+
+.details__container {
+    max-width: 700px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.details__heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.details__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}

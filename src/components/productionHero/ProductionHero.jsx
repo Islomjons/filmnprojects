@@ -22,12 +22,12 @@ const ProductionHero = () => {
                         </Link>
                     </li>
                     <li className='production__hero__item'>
-                        <Link>
+                        <Link to="/pay">
                             <img className='production__hero__img' src={productionDashboard} alt="" />
                         </Link>
                     </li>
                     <li className='production__hero__item'>
-                        <Link>
+                        <Link to="/service">
                             <img className='production__hero__img' src={productionProfile} alt="" />
                         </Link>
                     </li>
@@ -37,7 +37,7 @@ const ProductionHero = () => {
                         </Link>
                     </li>
                     <li className='production__hero__item'>
-                        <Link>
+                        <Link to="/method">
                             <img className='production__hero__img' src={productionSms} alt="" />
                         </Link>
                     </li>

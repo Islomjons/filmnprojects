@@ -1,0 +1,127 @@
+.cards {
+    
+}
+
+.cards__container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px #4261cc0d;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+.cards__wrapper {
+    display: flex;
+}
+
+.cards__left {
+    display: flex;
+    gap: 20px;
+}
+
+.cards__img {
+    width: 210px;
+    height: 187px;
+}
+
+.cards__left__wrapper {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.cards__left__heading__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__left__heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #212121;
+    margin-bottom: 12px;
+}
+
+.cards__left__star__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 14px;
+}
+
+.cards__left__star__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #20735F;
+}
+
+.cards__left__info {
+    display: flex;
+    gap: 2px;
+}
+
+.cards__left__info__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.0968px;
+    line-height: 37px;
+    color: #757575;
+}
+
+.cards__text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #111111;
+}
+
+.cards__bottom__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards__bottom__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 23px 10px 10px 20px;
+}
+
+.cards__bottom__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards__bottom__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.cards__bottom__right {
+    
+}
+
+.cards__bottom__right__btn {
+    border: none;
+    outline: none;
+    background: #20735F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 13px 18px;
+}

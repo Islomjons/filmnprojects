@@ -32,7 +32,7 @@ const DetailsHero = () => {
                     </Link>
                 </li>
                 <li className='hero__item6'>
-                    <Link>
+                    <Link to="/order">
                         <img className='hero__icon6' src={preDetailsOrder} alt="" />
                     </Link>
                 </li>

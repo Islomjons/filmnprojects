@@ -9,6 +9,15 @@ import DetailsHero from '../components/detailsHero/DetailsHero'
 import HistoryHero from '../components/hisoryHero/HistoryHero'
 import History from '../components/history/History'
 import HistoryFooter from '../components/historyFooter/HistoryFooter'
+import Method from '../components/method/Method'
+import MethodFooter from '../components/methodFooter/MethodFooter'
+import MethodHero from '../components/methodHero/MethodHero'
+import Order from '../components/order/Order'
+import OrderFooter from '../components/orderFooter/OrderFooter'
+import OrderHero from '../components/orderHero/OrderHero'
+import Pay from '../components/pay/Pay'
+import PayFooter from '../components/payFooter/PayFooter'
+import PayHero from '../components/payHero/PayHero'
 import PostProduction from '../components/postProduction/PostProduction'
 import PostProductionFooter from '../components/postProductionFooter/PostProductionFooter'
 import PostProductionHero from '../components/postProductionHero/PostProductionHero'
@@ -24,6 +33,9 @@ import RatingHero from '../components/ratingHero/RatingHero'
 import SaveVideo from '../components/saveVideo/SaveVideo'
 import SaveVideoFooter from '../components/saveVideoFooter/SaveVideoFooter'
 import SaveVideoHero from '../components/saveVideoHero/SaveVideoHero'
+import ServiceFooter from '../components/serviceFooter/ServiceFooter'
+import ServiceHeader from '../components/serviceHeader/ServiceHeader'
+import ServiceHero from '../components/serviceHero/ServiceHero'
 import Home from './home/Home'
 
 const index = () => {
@@ -71,6 +83,26 @@ const index = () => {
             <Details />
             <DetailsHero />
             <DetailsFooter />
+        </Route>
+        <Route exact path="/service">
+            <ServiceHeader />
+            <ServiceHero />
+            <ServiceFooter />
+        </Route>
+        <Route exact path="/pay">
+            <Pay />
+            <PayHero />
+            <PayFooter />
+        </Route>
+        <Route exact path="/method">
+            <Method />
+            <MethodHero/> 
+            <MethodFooter />
+        </Route>
+        <Route exact path="/order">
+            <Order />
+            <OrderHero />
+            <OrderFooter />
         </Route>
     </div>
   )

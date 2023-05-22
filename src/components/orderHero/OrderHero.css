@@ -1,0 +1,40 @@
+.heroo {
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__containero {
+    display: flex;
+}
+
+.hero__listo {
+    max-width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    background: #20735F;
+    padding-top: 18px;
+}
+
+.hero__itemo {
+
+}
+
+.active__hero__itemo {
+    width: 47px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
