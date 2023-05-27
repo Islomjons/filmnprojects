@@ -18,13 +18,13 @@ const SidebarHeader = ({isSidebarActive, setIsSidebarActive}) => {
                 </Link>
             </li>
             <li className='sidebar__item'>
-                <Link className='sidebar__linl'>
+                <Link className='sidebar__linl' to="/productionheader">
                     <img className='sidebar__icon' src={youtubeLogo} alt="" />
                     <p className='sidebar__text active__sidebar__text'>Production</p>
                 </Link>
             </li>
             <li className='sidebar__item'>
-                <Link className='sidebar__linl'>
+                <Link className='sidebar__linl' to="/postproduction">
                     <img className='sidebar__icon' src={postIcon} alt="" />
                     <p className='sidebar__text active__sidebar__text'>Post-production</p>
                 </Link>
