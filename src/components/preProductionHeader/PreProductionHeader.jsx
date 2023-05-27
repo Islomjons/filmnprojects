@@ -7,8 +7,9 @@ import youtubeLogo from "../../assets/images/headerLogoYoutube.svg"
 import postIcon from "../../assets/images/post.svg"
 import ball from "../../assets/images/ball.svg"
 import head from "../../assets/images/face.svg"
+import { GiHamburgerMenu } from "react-icons/gi"
 
-const PreProductionHeader = () => {
+const PreProductionHeader = ({setIsSidebarActive}) => {
   return (
     <div className='preProductionHeader'>
         <div className='container'>
@@ -39,6 +40,9 @@ const PreProductionHeader = () => {
                 </ul>
 
                 <div className='preProductionHeader__right'>
+                    <button className='preProductionHeader__right__btn' onClick={() => {setIsSidebarActive(true)}}>
+                        <GiHamburgerMenu className='preProductionHeader__right__ham__icon'/>
+                    </button>
                     <Link>
                         <img className='preProductionHeader__right__img1' src={ball} alt="" />
                     </Link>
