@@ -549,7 +549,7 @@
     }   
     
     .stroylinerCards__item {
-        max-width: 220px;
+        max-width: 250px;
         width: 100%;
         background: #FFFFFF;
         box-shadow: 0px 0px 30px #4261cc0d;
@@ -562,7 +562,7 @@
     }
     
     .storylinerCardsImg {
-        width: 220px;
+        width: 250px;
         height: 100px;
         object-fit: cover;
         border-top-left-radius: 8px;
