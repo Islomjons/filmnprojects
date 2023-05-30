@@ -19,17 +19,17 @@ const PreProductionFooter = () => {
                     <ul className="footer__list">
                         <li className="footer__item">
                             <Link>
-                                <img src={footerInstagramIcon} alt="" />
+                                <img className='footer__item__logo' src={footerInstagramIcon} alt="" />
                             </Link>
                         </li>
                         <li className="footer__item">
                             <Link>
-                                <img src={footerFacebookIcon} alt="" />
+                                <img className='footer__item__logo' src={footerFacebookIcon} alt="" />
                             </Link>
                         </li>
                         <li className="footer__item">
                             <Link>
-                                <img src={footerTwitterIcon} alt="" />
+                                <img className='footer__item__logo' src={footerTwitterIcon} alt="" />
                             </Link>
                         </li>
                     </ul>
@@ -88,7 +88,7 @@ const PreProductionFooter = () => {
             </div>
             <div className="footer__bottom">
                <p className="footer__bottom__text">© filmnWho 2021. All rights reserved</p>
-               <p className="footer__bottom__text1">Terms and Conditions</p>
+               <p className="footer__bottom__text">Terms and Conditions</p>
             </div>
         </div>
     </div>

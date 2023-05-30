@@ -46,6 +46,7 @@
 .storyliner__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -98,4 +99,150 @@
     line-height: 43px;
     text-align: right;
     color: #212121;
+}
+
+@media only screen and (max-width: 1400px) {
+    .preProductionStoryliner {
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1110px;
+        width: 100%;
+        background: #F4F4FB;
+    }
+    
+    .preProductionStoryline__container {
+        
+    }
+    
+    .preProductionStoryliner__wrapper {
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .storyliner__text {
+        font-size: 23px;
+        line-height: 20px;
+    }
+    
+    .storyliner__number {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    
+    .storyliner__info__wrapper {
+        margin-bottom: 20px;
+    }
+    
+    .storyliner__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .storyliner__item {
+        padding: 2px 20px;
+    }
+    
+    .storyliner__item:hover {
+        color: #ffffff1a;
+        background-color: #CED4E2;
+    }
+    
+    .storyliner__link {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .storyliner__hamburger {
+        width: 13px;
+        height: 13px;
+        margin-right: 15px;
+    }
+    
+    .storyliner__dots {
+        width: 13px;
+        height: 13px;
+        margin-right: 25px;
+    }
+    
+    .storyliner__select {
+        font-size: 12px;
+        line-height: 33px;
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    .preProductionStoryliner {
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1110px;
+        width: 100%;
+        background: #F4F4FB;
+    }
+    
+    .preProductionStoryline__container {
+        
+    }
+    
+    .preProductionStoryliner__wrapper {
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .storyliner__text {
+        font-size: 23px;
+        line-height: 20px;
+    }
+    
+    .storyliner__number {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    
+    .storyliner__info__wrapper {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    .storyliner__list {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .storyliner__item {
+        padding: 2px 20px;
+    }
+    
+    .storyliner__item:hover {
+        color: #ffffff1a;
+        background-color: #CED4E2;
+    }
+    
+    .storyliner__link {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .storyliner__hamburger {
+        width: 13px;
+        height: 13px;
+        margin-right: 15px;
+    }
+    
+    .storyliner__dots {
+        width: 13px;
+        height: 13px;
+        margin-right: 25px;
+    }
+    
+    .storyliner__select {
+        font-size: 12px;
+        line-height: 33px;
+    }
 }
