@@ -17,6 +17,14 @@
     transition: 0.10s ease;
   }
 
+  .sidebar__wrapper {
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
   .sidebar__list {
     background: #20735F;
     padding: 9px 19px 0px;

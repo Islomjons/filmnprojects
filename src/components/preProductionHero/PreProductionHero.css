@@ -57,10 +57,10 @@
     }
     
     .preproduction__list__wrappers {
-        max-width: 15px;
+        max-width: 13px;
         width: 100%;
         background: #20735F;
-        padding-top: 40%;
+        padding-top: 30%;
     }
     
     .preproduction__list {
@@ -86,7 +86,9 @@
     }
     
     .preproduction__list__btn {
-        display: block;
-        z-index: 3;
+        display: block;   
+        border: none;
+        background: none;  
+        color: #fff; 
     }
 }

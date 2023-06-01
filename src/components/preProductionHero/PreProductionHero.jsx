@@ -9,9 +9,9 @@ import preproductionSms from "../../assets/images/preproductionsms.svg"
 import preproductionSave from "../../assets/images/preproductionsave.svg"
 import PreProductionSearch from '../preProductionSearch/PreProductionSearch'
 import PreProductionStoryliner from '../preProductionStoryliner/PreProductionStoryliner'
-import { FcNext } from "react-icons/fc"
+import { AiOutlineCaretRight } from "react-icons/ai"
 
-const PreProductionHero = () => {
+const PreProductionHero = ({setIsNAvigationActive}) => {
   return (
     <div className="preproduction__hero">
         <div className="container">
@@ -50,8 +50,8 @@ const PreProductionHero = () => {
                         </li>
                     </ul>
 
-                    <button className='preproduction__list__btn'>
-                        <FcNext />
+                    <button className='preproduction__list__btn' onClick={() => {setIsNAvigationActive(true)}}>
+                        <AiOutlineCaretRight />
                     </button>
                 </div>
 

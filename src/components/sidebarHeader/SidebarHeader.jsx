@@ -9,7 +9,9 @@ import { Link } from 'react-router-dom'
 const SidebarHeader = ({isSidebarActive, setIsSidebarActive}) => {
   return (
     <div className={isSidebarActive === true ? "sidebar sidebaractive" : "sidebar"}>
-        <FiX onClick={() => {setIsSidebarActive(false)}}/>
+        <div className='sidebar__wrapper'>
+            <FiX style={{cursor: "pointer"}} onClick={() => {setIsSidebarActive(false)}}/>
+        </div>
         <ul className='sidebar__list'>
             <li className='sidebar__item active__sidebar'>
                 <Link className='sidebar__linl'>
