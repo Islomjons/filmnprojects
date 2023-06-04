@@ -25,13 +25,13 @@ const History = () => {
                         </Link>
                     </li>
                     <li className='historyHeader__item'>
-                        <Link className='historyHeader__link'>
+                        <Link className='historyHeader__link' to="/productionheader">
                             <img className='historyHeader__img' src={historyYoutubeLogo} alt="" />
                             <p className='historyHeader__text active__historyHeader__text'>Production</p>
                         </Link>
                     </li>
                     <li className='historyHeader__item'>
-                        <Link className='historyHeader__link'>
+                        <Link className='historyHeader__link' to="/postproduction">
                             <img className='historyHeader__img' src={historyPostIcon} alt="" />
                             <p className='historyHeader__text active__historyHeader__text'>Post-production</p>
                         </Link>

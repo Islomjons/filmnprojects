@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route } from 'react-router-dom'
 import Dashboard from '../components/dashboard/Dashboard'
 import DashboardFooter from '../components/dashboardFooter/DashboardFooter'
@@ -46,8 +45,8 @@ const index = () => {
         </Route>
         <Route exact path="/productionheader">
             <ProductionHeader />
-            <ProductionHero />
-            <ProductionFooter />
+            {/* <ProductionHero />
+            <ProductionFooter /> */}
         </Route>
         <Route exact path="/postproduction">
             <PostProduction />

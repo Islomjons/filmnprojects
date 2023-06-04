@@ -1,6 +1,7 @@
 .productionheader {
     padding-top: 11px;
     padding-left: 19px;
+    padding-right: 19px;
     background: #C05D3E;
 }
 
@@ -66,4 +67,126 @@
 
 .active__production__header__text {
     color: #F9F9FF;
+}
+
+.production__header__btn {
+    display: none;
+}
+
+@media only screen and (max-width: 1010px) {
+    .productionheader {
+        padding-top: 11px;
+        padding-left: 19px;
+        padding-right: 19px;
+        background: #C05D3E;
+    }
+    
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .production__container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .production__logo__link {
+        margin-right: 200px;
+    }
+    
+    .production__header__logo {
+        width: 193px;
+        height: 18px;
+    }
+    
+    .production__header__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .production__header__item {
+    
+    }
+    
+    .active__production__header__item {
+        display: flex;
+        align-items: center;
+        padding: 1px 24px 0px 24px;
+        background: #F9F9FF;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .production__header__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .production__header__img {
+        width: 15px;
+        height: 17px;
+    }
+    
+    .production__header__text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 40px;
+        color: #C05D3E;
+    }
+    
+    .active__production__header__text {
+        color: #F9F9FF;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .productionheader {
+        padding-top: 11px;
+        padding-left: 19px;
+        padding-right: 19px;
+        background: #C05D3E;
+    }
+    
+    .production__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .production__logo__link {
+        margin-right: 0px;
+    }
+    
+    .production__header__logo {
+        width: 170px;
+        height: 15px;
+    }
+    
+    .production__header__list {
+        display: none;
+    }
+    
+    .production__header__item {
+    
+    }
+    
+    .active__production__header__text {
+        color: #F9F9FF;
+    }
+
+    .production__header__btn {
+        display: block;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        color: #fff;
+    }
 }

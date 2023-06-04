@@ -5,6 +5,7 @@ import productionHeaderLogo from "../../assets/images/productionHeaderLogo.svg"
 import productionPreIcon from "../../assets/images/productionPre.svg"
 import productionYoutube from "../../assets/images/youtube.svg"
 import productionPost from "../../assets/images/post.svg"
+import { GiHamburgerMenu } from "react-icons/gi"
 
 const ProductionHeader = () => {
   return (
@@ -35,6 +36,10 @@ const ProductionHeader = () => {
                         </Link>
                     </li>
                 </ul>
+
+                <button className='production__header__btn'>
+                    <GiHamburgerMenu style={{width: "20px", height: "20px"}}/>
+                </button>
             </div>
         </div>
     </div>
