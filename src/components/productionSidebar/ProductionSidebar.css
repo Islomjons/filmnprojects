@@ -16,3 +16,11 @@
     left: 0;
     transition: 0.10s ease;
   }
+
+  .productionISidebar__wrapper {
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
