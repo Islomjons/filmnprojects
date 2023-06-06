@@ -22,7 +22,8 @@
 }
 
 .production__header__logo {
-    width: 193px;
+    max-width: 193px;
+    width: 100%;
     height: 18px;
 }
 
@@ -148,7 +149,7 @@
 
 @media only screen and (max-width: 865px) {
     .productionheader {
-        padding-top: 11px;
+        padding-top: 5px;
         padding-left: 19px;
         padding-right: 19px;
         background: #C05D3E;
@@ -165,7 +166,7 @@
     }
     
     .production__header__logo {
-        width: 170px;
+        width: 130px;
         height: 15px;
     }
     

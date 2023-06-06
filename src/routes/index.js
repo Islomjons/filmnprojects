@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Route } from 'react-router-dom'
 import Dashboard from '../components/dashboard/Dashboard'
 import DashboardFooter from '../components/dashboardFooter/DashboardFooter'
@@ -26,6 +27,7 @@ import PreProfilePage from '../components/preProfilePage/PreProfilePage'
 import ProductionFooter from '../components/productionFooter/ProductionFooter'
 import ProductionHeader from '../components/productionHeader/ProductionHeader'
 import ProductionHero from '../components/productionHero/ProductionHero'
+import ProductionSidebar from '../components/productionSidebar/ProductionSidebar'
 import RatingFooter from '../components/ratingFooter/RatingFooter'
 import RatingHeader from '../components/ratingHeader/RatingHeader'
 import RatingHero from '../components/ratingHero/RatingHero'
@@ -35,18 +37,24 @@ import SaveVideoHero from '../components/saveVideoHero/SaveVideoHero'
 import ServiceFooter from '../components/serviceFooter/ServiceFooter'
 import ServiceHeader from '../components/serviceHeader/ServiceHeader'
 import ServiceHero from '../components/serviceHero/ServiceHero'
+import { Overlay } from '../utils'
 import Home from './home/Home'
 
-const index = () => {
+const Index = () => {
+  const [isProductionSidebarActive, setIsProductionSidebarActive] = useState(false)
+  const [isProductionSidebarEnter, setIsProductionSidebarEnter] = useState(false)
   return (
     <div>
         <Route exact path="/">
             <Home />
         </Route>
         <Route exact path="/productionheader">
-            <ProductionHeader />
+            <ProductionHeader setIsProductionSidebarActive={setIsProductionSidebarActive} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>
             {/* <ProductionHero />
             <ProductionFooter /> */}
+        </Route>
+        <Route>
+            <ProductionSidebar isProductionSidebarActive={isProductionSidebarActive} setIsProductionSidebarActive={setIsProductionSidebarActive} isProductionSidebarEnter={isProductionSidebarEnter} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>
         </Route>
         <Route exact path="/postproduction">
             <PostProduction />
@@ -103,8 +111,11 @@ const index = () => {
             <OrderHero />
             <OrderFooter />
         </Route>
+        {
+            isProductionSidebarActive && <Overlay type="productionsidebar" state={isProductionSidebarActive} callback={setIsProductionSidebarActive}/>
+        }
     </div>
   )
 }
 
-export default index
+export default Index

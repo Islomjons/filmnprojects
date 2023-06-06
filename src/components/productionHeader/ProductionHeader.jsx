@@ -7,7 +7,7 @@ import productionYoutube from "../../assets/images/youtube.svg"
 import productionPost from "../../assets/images/post.svg"
 import { GiHamburgerMenu } from "react-icons/gi"
 
-const ProductionHeader = () => {
+const ProductionHeader = ({setIsProductionSidebarActive}) => {
   return (
     <div className='productionheader'>
         <div className='container'>
@@ -37,7 +37,7 @@ const ProductionHeader = () => {
                     </li>
                 </ul>
 
-                <button className='production__header__btn'>
+                <button className='production__header__btn' onClick={() => {setIsProductionSidebarActive(true)}}>
                     <GiHamburgerMenu style={{width: "20px", height: "20px"}}/>
                 </button>
             </div>
