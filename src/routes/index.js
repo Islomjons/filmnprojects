@@ -50,8 +50,8 @@ const Index = () => {
         </Route>
         <Route exact path="/productionheader">
             <ProductionHeader setIsProductionSidebarActive={setIsProductionSidebarActive} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>
-            {/* <ProductionHero />
-            <ProductionFooter /> */}
+            <ProductionHero />
+            {/* <ProductionFooter /> */}
         </Route>
         <Route>
             <ProductionSidebar isProductionSidebarActive={isProductionSidebarActive} setIsProductionSidebarActive={setIsProductionSidebarActive} isProductionSidebarEnter={isProductionSidebarEnter} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>
