@@ -10,10 +10,13 @@
     display: flex;
 }
 
-.production__hero__list {
+.production__hero__wrapper__list {
     max-width: 55px;
     width: 100%;
     background: #C05D3E;
+}
+
+.production__hero__list {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,6 +39,111 @@
     height: 47px;
 }
 
-.production__hero__img {
+.production__hero__btn {
+    display: none;
+}
 
+.production__hero__img {
+    
+}
+
+@media only screen and (max-width: 580px) {
+    .productionhero {
+    
+    }
+    
+    .container {
+        
+    }
+    
+    .production__hero__container {
+        display: flex;
+    }
+    
+    .production__hero__list {
+        max-width: 50px;
+        width: 100%;
+        background: #C05D3E;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 15px;
+    }
+    
+    .production__hero__item {
+    
+    }
+    
+    .active__production__hero__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 40px;
+        height: 41px;
+    }
+    
+    .production__hero__img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    .productionhero {
+    
+    }
+    
+    .container {
+        
+    }
+    
+    .production__hero__container {
+        display: flex;
+    }
+
+    .production__hero__wrapper__list {
+        max-width: 13px;
+        width: 100%;
+        background: #C05D3E;
+        padding-top: 30%;
+    }
+    
+    .production__hero__list {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 15px;
+    }
+    
+    .production__hero__item {
+    
+    }
+    
+    .active__production__hero__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 40px;
+        height: 41px;
+    }
+
+    .production__hero__btn {
+        display: block;
+        border: none;
+        background: none;  
+        color: #fff; 
+    }
+    
+    .production__hero__img {
+        width: 16px;
+        height: 16px;
+    }
 }

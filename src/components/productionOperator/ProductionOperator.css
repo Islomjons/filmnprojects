@@ -38,7 +38,6 @@
 
 .production__operator__side__wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
 }
@@ -99,4 +98,110 @@
     line-height: 43px;
     text-align: right;
     color: #212121;
+}
+
+@media only screen and (max-width: 980px) {
+    .productionoperator {
+        max-width: 1110px;
+        width: 100%;
+        background: #F4F4FB;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .production__operator {
+        
+    }
+    
+    .production__operator__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 23px;
+    }
+    
+    .production__operator__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #3E3E3E;
+    }
+    
+    .production__operator__number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 30px;
+        color: #071C3F;
+        opacity: 0.4;
+    }
+    
+    .production__operator__side__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    }
+    
+    .production__operator__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .production__operator__item {
+        background: #ffffff1a;
+        border: 1px solid #CED4E2;
+        border-radius: 8px;
+        padding: 3px 30px;
+        transition: 0.3s ease;
+    }
+    
+    .production__operator__item:hover {
+        background-color: #CED4E2;
+        color: #ffffff1a;
+    }
+    
+    .production__operator__link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000b3;
+    }
+    
+    .production__operator__right {
+        display: flex;
+        align-items: center;
+    }   
+    
+    .production__operator__right__img1 {
+        width: 16px;
+        height: 16px;
+        margin-right: 20px;
+    }
+    
+    .production__operator__right__img2 {
+        width: 16px;
+        height: 16px;
+        margin-right: 30px;
+    }
+    
+    .production__operator__right__select {
+        border: none;
+        background: none;
+        outline: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 43px;
+        text-align: right;
+        color: #212121;
+    }
 }

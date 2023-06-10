@@ -1,0 +1,30 @@
+.productionnavigation{
+    max-width: 50px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: #C05D3E;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    transition: 0.10s ease;
+    top: 20%;
+  }
+  
+  .activeproductionnavigation{
+    top: 0;
+    left: 0;
+    transition: 0.10s ease;
+  }
+
+  .production__navigation__wrapper {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .productionNavigation__icon {
+      color: #fff;
+  }

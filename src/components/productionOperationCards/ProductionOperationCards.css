@@ -271,3 +271,536 @@
         height: 13px;
     }
 }
+
+@media only screen and (max-width: 1310px) {
+    .productionOperationCards {
+        
+    }
+    
+    .productionOperationCards__container {
+        
+    }
+    
+    .productionOperationCards__list {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    
+    .productionOperationCards__item {
+        max-width: 200px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px #4261cc0d;
+        border-radius: 13px;
+        transition: 0.3s ease;
+    }
+    
+    .productionOperationCards__item:hover {
+        transform: scale(1.03);
+    }
+    
+    .productionOperationCards__img {
+        width: 200px;
+        height: 70px;
+        object-fit: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .productionOperationCards__wrapper {
+        padding: 10px 15px 13px 15px;
+    }
+    
+    .productionOperationCards__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .productionOperationCards__profile__img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .productionOperationCards__profile__name {
+        font-size: 10px;
+        line-height: 8px;
+    }
+    
+    .productionOperationCards__rating__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .productionOperationCards__rating__number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 9px;
+        display: flex;
+        align-items: center;
+        color: #FF8718;
+    }
+    
+    .productionOperationCards__rating__star {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .productionOperationCards__text {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .productionOperationCards__location__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .productionOperationCards__location {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .productionOperationCards__location__icon {
+        width: 6px;
+        height: 9px;
+    }   
+    
+    .productionOperationCards__location__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        color: #939393;
+    }
+    
+    .productionOperationCards__like__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .productionOperationCards__like {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .productionOperationCards__save {
+        width: 7px;
+        height: 10px;
+    }
+}
+
+@media only screen and (max-width: 1216px) {
+    .productionOperationCards {
+        
+    }
+    
+    .productionOperationCards__container {
+        
+    }
+    
+    .productionOperationCards__list {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .productionOperationCards__item {
+        max-width: 250px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px #4261cc0d;
+        border-radius: 13px;
+        transition: 0.3s ease;
+    }
+    
+    .productionOperationCards__item:hover {
+        transform: scale(1.03);
+    }
+    
+    .productionOperationCards__img {
+        width: 250px;
+        height: 100px;
+        object-fit: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .productionOperationCards__wrapper {
+        padding: 15px 20px 18px 20px;
+    }
+    
+    .productionOperationCards__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .productionOperationCards__profile__img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .productionOperationCards__profile__name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 11px;
+        color: #3E3E3E;
+    }
+    
+    .productionOperationCards__rating__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .productionOperationCards__rating__number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #FF8718;
+    }
+    
+    .productionOperationCards__rating__star {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .productionOperationCards__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #6E6E6E;
+        margin-bottom: 11px;
+    }
+    
+    .productionOperationCards__location__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .productionOperationCards__location {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .productionOperationCards__location__icon {
+        width: 9px;
+        height: 12px;
+    }   
+    
+    .productionOperationCards__location__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #939393;
+    }
+    
+    .productionOperationCards__like__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .productionOperationCards__like {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .productionOperationCards__save {
+        width: 9px;
+        height: 13px;
+    }   
+}
+
+@media only screen and (max-width: 1160px) {
+    .productionOperationCards {
+        
+    }
+    
+    .productionOperationCards__container {
+        
+    }
+    
+    .productionOperationCards__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .productionOperationCards__item {
+        max-width: 230px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px #4261cc0d;
+        border-radius: 13px;
+        transition: 0.3s ease;
+    }
+    
+    .productionOperationCards__item:hover {
+        transform: scale(1.03);
+    }
+    
+    .productionOperationCards__img {
+        width: 230px;
+        height: 70px;
+        object-fit: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .productionOperationCards__wrapper {
+        padding: 10px 15px 14px 15px;
+    }
+    
+    .productionOperationCards__info {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+    
+    .productionOperationCards__profile__img {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+    
+    .productionOperationCards__profile__name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 8px;
+        color: #3E3E3E;
+    }
+    
+    .productionOperationCards__rating__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .productionOperationCards__rating__number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 11px;
+        display: flex;
+        align-items: center;
+        color: #FF8718;
+    }
+    
+    .productionOperationCards__rating__star {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .productionOperationCards__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        color: #6E6E6E;
+        margin-bottom: 8px;
+    }
+    
+    .productionOperationCards__location__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .productionOperationCards__location {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .productionOperationCards__location__icon {
+        width: 9px;
+        height: 12px;
+    }   
+    
+    .productionOperationCards__location__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        color: #939393;
+    }
+    
+    .productionOperationCards__like__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .productionOperationCards__like {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .productionOperationCards__save {
+        width: 9px;
+        height: 13px;
+    }   
+}
+
+@media only screen and (max-width: 990px) {
+    .productionOperationCards {
+        
+    }
+    
+    .productionOperationCards__container {
+        
+    }
+    
+    .productionOperationCards__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .productionOperationCards__item {
+        max-width: 300px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px #4261cc0d;
+        border-radius: 13px;
+        transition: 0.3s ease;
+    }
+    
+    .productionOperationCards__item:hover {
+        transform: scale(1.03);
+    }
+    
+    .productionOperationCards__img {
+        width: 300px;
+        height: 100px;
+        object-fit: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .productionOperationCards__wrapper {
+        padding: 15px 20px 18px 20px;
+    }
+    
+    .productionOperationCards__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .productionOperationCards__profile__img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .productionOperationCards__profile__name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 11px;
+        color: #3E3E3E;
+    }
+    
+    .productionOperationCards__rating__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .productionOperationCards__rating__number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        color: #FF8718;
+    }
+    
+    .productionOperationCards__rating__star {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .productionOperationCards__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #6E6E6E;
+        margin-bottom: 11px;
+    }
+    
+    .productionOperationCards__location__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .productionOperationCards__location {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .productionOperationCards__location__icon {
+        width: 9px;
+        height: 12px;
+    }   
+    
+    .productionOperationCards__location__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #939393;
+    }
+    
+    .productionOperationCards__like__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .productionOperationCards__like {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .productionOperationCards__save {
+        width: 9px;
+        height: 13px;
+    }
+}
