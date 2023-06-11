@@ -54,7 +54,7 @@ const Index = () => {
         <Route exact path="/productionheader">
             <ProductionHeader setIsProductionSidebarActive={setIsProductionSidebarActive} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>
             <ProductionHero setIsProductionNavigationActive={setIsProductionNavigationActive} setIsProductionNavigationEnter={setIsProductionNavigationEnter}/>
-            {/* <ProductionFooter /> */}
+            <ProductionFooter />
         </Route>
         <Route>
             <ProductionSidebar isProductionSidebarActive={isProductionSidebarActive} setIsProductionSidebarActive={setIsProductionSidebarActive} isProductionSidebarEnter={isProductionSidebarEnter} setIsProductionSidebarEnter={setIsProductionSidebarEnter}/>

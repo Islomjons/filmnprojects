@@ -28,3 +28,25 @@
   .productionNavigation__icon {
       color: #fff;
   }
+
+  .production__navigation__list {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .production__navigation__item {
+
+  }
+
+  .active__production__navigation__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 31px;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
