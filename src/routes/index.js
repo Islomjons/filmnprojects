@@ -21,6 +21,7 @@ import PayHero from '../components/payHero/PayHero'
 import PostProduction from '../components/postProduction/PostProduction'
 import PostProductionFooter from '../components/postProductionFooter/PostProductionFooter'
 import PostProductionHero from '../components/postProductionHero/PostProductionHero'
+import PostSidebar from '../components/postSidebar/PostSidebar'
 import PreProfileFooter from '../components/preProfileFooter/PreProfileFooter'
 import PreProfileHero from '../components/preProfileHero/PreProfileHero'
 import PreProfilePage from '../components/preProfilePage/PreProfilePage'
@@ -46,6 +47,8 @@ const Index = () => {
   const [isProductionSidebarEnter, setIsProductionSidebarEnter] = useState(false)
   const [isProductionNavigationActive, setIsProductionNavigationActive] = useState(false)
   const [isProductionNavigationEnter, setIsProductionNavigationEnter] = useState(false)
+  const [isPostSidebarActive, setIsPostSidebarActive] = useState(false)
+  const [isPostSidebarEnter, setIsPostSidebarEnter] = useState(false)
   return (
     <div>
         <Route exact path="/">
@@ -63,9 +66,12 @@ const Index = () => {
             <ProductionNavigation isProductionNavigationActive={isProductionNavigationActive} setIsProductionNavigationActive={setIsProductionNavigationActive} isProductionNavigationEnter={isProductionNavigationEnter} setIsProductionNavigationEnter={setIsProductionNavigationEnter}/>
         </Route>
         <Route exact path="/postproduction">
-            <PostProduction />
+            <PostProduction setIsPostSidebarActive={setIsPostSidebarActive} setIsPostSidebarEnter={setIsPostSidebarEnter}/>
             <PostProductionHero />
-            <PostProductionFooter />
+            {/* <PostProductionFooter /> */}
+        </Route>
+        <Route>
+            <PostSidebar isPostSidebarActive={isPostSidebarActive} setIsPostSidebarActive={setIsPostSidebarActive} isPostSidebarEnter={isPostSidebarEnter} setIsPostSidebarEnter={setIsPostSidebarEnter}/>
         </Route>
         <Route exact path="/preprofilepage">
             <PreProfilePage />
@@ -122,6 +128,9 @@ const Index = () => {
         }
         {
             isProductionNavigationActive && <Overlay type="productionnavigation" state={isProductionNavigationActive} callback={setIsProductionNavigationActive}/>
+        }
+        {
+            isPostSidebarActive && <Overlay type="postsidebar" state={isPostSidebarActive} callback={setIsPostSidebarActive}/>
         }
     </div>
   )

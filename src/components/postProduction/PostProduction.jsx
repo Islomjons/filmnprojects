@@ -5,8 +5,9 @@ import postPre from "../../assets/images/postpre.svg"
 import postYoutube from "../../assets/images/postyoutube.svg"
 import postPost from "../../assets/images/postpost.svg"
 import postProductionHeaderLogo from "../../assets/images/postProductionHeaderLogo.svg"
+import { GiHamburgerMenu } from "react-icons/gi"
 
-const PostProduction = () => {
+const PostProduction = ({setIsPostSidebarActive}) => {
   return (
     <div className='postProductionHeader'>
         <div className='container'>
@@ -35,6 +36,10 @@ const PostProduction = () => {
                         </Link>
                     </li>
                 </ul>
+
+                <button className='post__production__btn' onClick={() => {setIsPostSidebarActive(true)}}>
+                    <GiHamburgerMenu style={{width: "20px", height: "20px"}}/>
+                </button>
             </div>
         </div>
     </div>
