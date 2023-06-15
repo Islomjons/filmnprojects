@@ -804,3 +804,138 @@
         height: 13px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .productionOperationCards {
+        
+    }
+    
+    .productionOperationCards__container {
+        
+    }
+    
+    .productionOperationCards__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .productionOperationCards__item {
+        max-width: 220px;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px #4261cc0d;
+        border-radius: 13px;
+        transition: 0.3s ease;
+    }
+    
+    .productionOperationCards__item:hover {
+        transform: scale(1.03);
+    }
+    
+    .productionOperationCards__img {
+        width: 220px;
+        height: 60px;
+        object-fit: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .productionOperationCards__wrapper {
+        padding: 12px 15px 14px 15px;
+    }
+    
+    .productionOperationCards__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .productionOperationCards__profile__img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .productionOperationCards__profile__name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 8px;
+        color: #3E3E3E;
+    }
+    
+    .productionOperationCards__rating__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .productionOperationCards__rating__number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 8px;
+        display: flex;
+        align-items: center;
+        color: #FF8718;
+    }
+    
+    .productionOperationCards__rating__star {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .productionOperationCards__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        color: #6E6E6E;
+        margin-bottom: 11px;
+    }
+    
+    .productionOperationCards__location__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .productionOperationCards__location {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .productionOperationCards__location__icon {
+        width: 7px;
+        height: 10px;
+    }   
+    
+    .productionOperationCards__location__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 8px;
+        color: #939393;
+    }
+    
+    .productionOperationCards__like__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .productionOperationCards__like {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .productionOperationCards__save {
+        width: 9px;
+        height: 13px;
+    }
+}
