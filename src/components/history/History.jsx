@@ -7,8 +7,9 @@ import historyPostIcon from "../../assets/images/post.svg"
 import historyBallIcon from "../../assets/images/ball.svg"
 import historyHeadIcon from "../../assets/images/face.svg"
 import { Link } from 'react-router-dom'
+import { GiHamburgerMenu } from "react-icons/gi"
 
-const History = () => {
+const History = ({setIsHistorySidebarActive}) => {
   return (
     <div className='historyHeader'>
         <div className='container'>
@@ -39,6 +40,9 @@ const History = () => {
                 </ul>
 
                 <div className='history__header__right'>
+                    <button className='history__header__btn' onClick={() => {setIsHistorySidebarActive(true)}}>
+                        <GiHamburgerMenu />
+                    </button>
                     <Link>
                         <img className='history__header__right__img1' src={historyBallIcon} alt="" />
                     </Link>

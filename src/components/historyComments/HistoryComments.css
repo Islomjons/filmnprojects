@@ -135,7 +135,8 @@
 .historyComments__lists__wrapper::after {
     content: "";
     display: inline-block;
-    width: 1059px;
+    max-width: 1059px;
+    width: 100%;
     border: 1px solid #4261cc1a;
 }
 
@@ -185,7 +186,8 @@
     content: "";
     display: inline-block;
     border: 1px solid #E9EBF3;
-    width: 1015px;
+    max-width: 1015px;
+    width: 100%;
     margin-top: 20px;
 }
 

@@ -9,6 +9,7 @@ import DetailsHero from '../components/detailsHero/DetailsHero'
 import HistoryHero from '../components/hisoryHero/HistoryHero'
 import History from '../components/history/History'
 import HistoryFooter from '../components/historyFooter/HistoryFooter'
+import HistorySidebar from '../components/historySidebar/HistorySidebar'
 import Method from '../components/method/Method'
 import MethodFooter from '../components/methodFooter/MethodFooter'
 import MethodHero from '../components/methodHero/MethodHero'
@@ -18,6 +19,7 @@ import OrderHero from '../components/orderHero/OrderHero'
 import Pay from '../components/pay/Pay'
 import PayFooter from '../components/payFooter/PayFooter'
 import PayHero from '../components/payHero/PayHero'
+import PostNavigation from '../components/postNavigation/PostNavigation'
 import PostProduction from '../components/postProduction/PostProduction'
 import PostProductionFooter from '../components/postProductionFooter/PostProductionFooter'
 import PostProductionHero from '../components/postProductionHero/PostProductionHero'
@@ -49,6 +51,10 @@ const Index = () => {
   const [isProductionNavigationEnter, setIsProductionNavigationEnter] = useState(false)
   const [isPostSidebarActive, setIsPostSidebarActive] = useState(false)
   const [isPostSidebarEnter, setIsPostSidebarEnter] = useState(false)
+  const [isPostNavigationActive, setIsPostNavigationActive] = useState(false)
+  const [isPostNavigationEnter, setIsPostNavigationEnter] = useState(false)
+  const [isHistorySidebarActive, setIsHistorySidebarActive] = useState(false)
+  const [isHistorySidebarEnter, setIsHistorySidebarEnter] = useState(false)
   return (
     <div>
         <Route exact path="/">
@@ -67,11 +73,14 @@ const Index = () => {
         </Route>
         <Route exact path="/postproduction">
             <PostProduction setIsPostSidebarActive={setIsPostSidebarActive} setIsPostSidebarEnter={setIsPostSidebarEnter}/>
-            <PostProductionHero />
-            {/* <PostProductionFooter /> */}
+            <PostProductionHero setIsPostNavigationActive={setIsPostNavigationActive} setIsPostNavigationEnter={setIsPostNavigationEnter}/>
+            <PostProductionFooter />
         </Route>
         <Route>
             <PostSidebar isPostSidebarActive={isPostSidebarActive} setIsPostSidebarActive={setIsPostSidebarActive} isPostSidebarEnter={isPostSidebarEnter} setIsPostSidebarEnter={setIsPostSidebarEnter}/>
+        </Route>
+        <Route>
+            <PostNavigation isPostNavigationActive={isPostNavigationActive} setIsPostNavigationActive={setIsPostNavigationActive} isPostNavigationEnter={isPostNavigationEnter} setIsPostNavigationEnter={setIsPostNavigationEnter}/>
         </Route>
         <Route exact path="/preprofilepage">
             <PreProfilePage />
@@ -79,9 +88,12 @@ const Index = () => {
             <PreProfileFooter />
         </Route>
         <Route exact path="/history">
-            <History />
+            <History setIsHistorySidebarActive={setIsHistorySidebarActive} setIsHistorySidebarEnter={setIsHistorySidebarEnter}/>
             <HistoryHero />
-            <HistoryFooter />
+            {/* <HistoryFooter /> */}
+        </Route>
+        <Route>
+            <HistorySidebar isHistorySidebarActive={isHistorySidebarActive} setIsHistorySidebarActive={setIsHistorySidebarActive} isHistorySidebarEnter={isHistorySidebarEnter} setIsHistorySidebarEnter={setIsHistorySidebarEnter}/>
         </Route>
         <Route exact path="/dashboard">
             <Dashboard />
@@ -131,6 +143,9 @@ const Index = () => {
         }
         {
             isPostSidebarActive && <Overlay type="postsidebar" state={isPostSidebarActive} callback={setIsPostSidebarActive}/>
+        }
+        {
+            isPostNavigationActive && <Overlay type="postnavigation" state={isPostNavigationActive} callback={setIsPostNavigationActive}/>
         }
     </div>
   )
