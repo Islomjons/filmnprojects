@@ -182,6 +182,10 @@
     margin-bottom: 20px;
 }
 
+.historyComments__info__item:last-child {
+    margin-bottom: 0px;
+}
+
 .historyComments__info__item::after {
     content: "";
     display: inline-block;
@@ -225,4 +229,1627 @@
     font-size: 14px;
     line-height: 20px;
     color: #757575;
+}
+
+@media only screen and (max-width: 1130px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 20px 20px 20px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 13px;
+    }
+    
+    .historyComments__left__img {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+    }
+    
+    .historyComments__left__text1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #212121;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 25px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 15px;
+        height: 14px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 10px;
+        height: 14px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 58px;
+        padding-right: 38px;
+    }
+    
+    .historyComments__bottom__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #757575;
+        margin-bottom: 19px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 32px;
+    }
+    
+    .historyComments__bottom__link1 {
+        display: block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        text-decoration: none;
+        margin-bottom: 2px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #757575;
+        text-decoration: none;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 20px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #6E6E6E;
+        text-decoration: none;
+    }
+    
+    .active__historyComments__links {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        color: #3E3E3E;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 18px;
+        padding-right: 70px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 18px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 13px;
+    }
+    
+    .historyComments__info__img {
+        width: 80px;
+        height: 59px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #212121;
+        margin-bottom: 7px;
+    }
+    
+    .historyComments__info__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #757575;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 18px 18px 18px 18px;
+        margin-bottom: 25px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 11px;
+    }
+    
+    .historyComments__left__img {
+        width: 43px;
+        height: 43px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 22px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 14px;
+        height: 13px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 10px;
+        height: 14px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 55px;
+        padding-right: 35px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 18px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 30px;
+    }
+    
+    .historyComments__bottom__link1 {
+      
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 15px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 60px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 15px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 75px;
+        height: 55px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 5px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 971px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 15px 15px 15px 15px;
+        margin-bottom: 20px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .historyComments__left__img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 13px;
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 13px;
+        height: 12px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 10px;
+        height: 14px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 52px;
+        padding-right: 30px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 28px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 50px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 882px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 13px 13px 13px 13px;
+        margin-bottom: 20px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 7px;
+    }
+    
+    .historyComments__left__img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 13px;
+        height: 12px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 10px;
+        height: 14px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 45px;
+        padding-right: 25px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 25px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 50px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 11px 11px 11px 11px;
+        margin-bottom: 15px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .historyComments__left__img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+        background-position: center;
+        border-radius: 50%;
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 12px;
+        height: 11px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 9px;
+        height: 13px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 20px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 50px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .historyComments__left__img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+        background-position: center;
+        border-radius: 50%;
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 12px;
+        height: 11px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 9px;
+        height: 13px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 15px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 1px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 10px;
+        line-height: 5px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 10px;
+        line-height: 5px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 50px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .historyComments__left__img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+        background-position: center;
+        border-radius: 50%;
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 12px;
+        height: 11px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 9px;
+        height: 13px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 20px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 1px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 50px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .historyComments {
+    
+    }
+    
+    .historyComments__container {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__wrapper__side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .historyComments__left__side {
+        display: flex;  
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__left__img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .historyComments__left__side__info {
+        
+    }
+    
+    .historyComments__left__text {
+        font-size: 12px;
+        line-height: 13px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__left__text::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 6px;
+        background-image: url("../../assets/images/check.svg");
+        background-position: center;
+        border-radius: 50%;
+    }
+    
+    .historyComments__left__text1 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .historyComments__right__side {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .historyComments__right__img1 {
+        width: 12px;
+        height: 11px;
+    }
+    
+    .historyComments__right__img2 {
+        width: 9px;
+        height: 13px;
+    }
+    
+    .historyComments__bottom__side {
+        padding-top: 4px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .historyComments__bottom__text {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    
+    .historyComments__bottom__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .historyComments__bottom__item {
+        border-right: 1px solid #000000;
+    }
+    
+    .historyComments__bottom__item:last-child {
+        border: none;
+    }
+    
+    .historyComments__bottom__wrapper {
+        margin-right: 15px;
+    }
+    
+    .historyComments__bottom__link1 {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 1px;
+    }
+    
+    .historyComments__bottom__link2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .historyComments__lists__wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .historyComments__lists__wrapper::after {
+        content: "";
+        display: inline-block;
+        max-width: 1059px;
+        width: 100%;
+        border: 1px solid #4261cc1a;
+    }
+    
+    .historyComments__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .historyComments__item {
+        
+    }
+    
+    .historyComments__links {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .active__historyComments__links {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .historyComments__info__lists {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    
+    .historyComments__info__item {
+        margin-bottom: 13px;
+    }
+
+    .historyComments__info__item:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .historyComments__info__item::after {
+        content: "";
+        display: inline-block;
+        border: 1px solid #E9EBF3;
+        max-width: 1015px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .historyComments__info__item:last-child::after {
+        border: none;
+    }
+    
+    .historyComments__info__item__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .historyComments__info__img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .historyComments__info__lists__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .historyComments__info__heading {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 3px;
+    }
+    
+    .historyComments__info__text {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
 }

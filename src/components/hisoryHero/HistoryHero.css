@@ -10,15 +10,18 @@
     display: flex;
 }
 
-.historyHero__list {
+.historyHero__list__wrapper {
     max-width: 55px;
     width: 100%;
+    background: #20735F;
+    padding-top: 18px;
+}
+
+.historyHero__list {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    background: #20735F;
-    padding-top: 18px;
 }
 
 .historyHero__item {
@@ -38,4 +41,63 @@
 
 .historyHero__img {
 
+}
+
+.historyHero__btn {
+    display: none;
+}
+
+@media only screen and (max-width: 690px) {
+    .historyHero {
+
+    }
+    
+    .container {
+    
+    }
+    
+    .historyHero__container {
+        display: flex;
+    }
+
+    .historyHero__list__wrapper {
+        max-width: 15px;
+        width: 100%;
+        background: #20735F;
+        padding-top: 30%;
+    }
+    
+    .historyHero__list {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .historyHero__item {
+    
+    }
+    
+    .active__historyHero__item {
+        width: 47px;
+        height: 46px;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    
+    .historyHero__img {
+    
+    }
+
+    .historyHero__btn {
+        display: inline-block;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+    }
 }

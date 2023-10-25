@@ -11,7 +11,7 @@
 
 .preProfilePosts__wrapper__side {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-bottom: 10px;
 }
 
@@ -134,7 +134,8 @@
 .preProfilePosts__links__list__wrapper::after {
     content: "";
     display: inline-block;
-    width: 1020px;
+    max-width: 1020px;
+    width: 100%;
     border: 1px solid #4261cc1a;
     margin-top: 10px;
     margin-bottom: 20px;

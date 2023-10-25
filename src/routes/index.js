@@ -9,6 +9,7 @@ import DetailsHero from '../components/detailsHero/DetailsHero'
 import HistoryHero from '../components/hisoryHero/HistoryHero'
 import History from '../components/history/History'
 import HistoryFooter from '../components/historyFooter/HistoryFooter'
+import HistoryNavigation from '../components/historyNavigation/HistoryNavigation'
 import HistorySidebar from '../components/historySidebar/HistorySidebar'
 import Method from '../components/method/Method'
 import MethodFooter from '../components/methodFooter/MethodFooter'
@@ -27,6 +28,7 @@ import PostSidebar from '../components/postSidebar/PostSidebar'
 import PreProfileFooter from '../components/preProfileFooter/PreProfileFooter'
 import PreProfileHero from '../components/preProfileHero/PreProfileHero'
 import PreProfilePage from '../components/preProfilePage/PreProfilePage'
+import PreProfileSidebar from '../components/preProfileSidebar/PreProfileSidebar'
 import ProductionFooter from '../components/productionFooter/ProductionFooter'
 import ProductionHeader from '../components/productionHeader/ProductionHeader'
 import ProductionHero from '../components/productionHero/ProductionHero'
@@ -55,6 +57,10 @@ const Index = () => {
   const [isPostNavigationEnter, setIsPostNavigationEnter] = useState(false)
   const [isHistorySidebarActive, setIsHistorySidebarActive] = useState(false)
   const [isHistorySidebarEnter, setIsHistorySidebarEnter] = useState(false)
+  const [isHistoryNavigationActive, setIsHistoryNavigationActive] = useState(false)
+  const [isHistoryNavigationEnter, setIsHistoryNavigationEnter] = useState(false)
+  const [isPreProfileSidebarActive, setIsPreProfileSidebarActive] = useState(false)
+  const [isPreProfileSidebarEnter, setIsPreProfileSidebarEnter] = useState(false)
   return (
     <div>
         <Route exact path="/">
@@ -83,17 +89,23 @@ const Index = () => {
             <PostNavigation isPostNavigationActive={isPostNavigationActive} setIsPostNavigationActive={setIsPostNavigationActive} isPostNavigationEnter={isPostNavigationEnter} setIsPostNavigationEnter={setIsPostNavigationEnter}/>
         </Route>
         <Route exact path="/preprofilepage">
-            <PreProfilePage />
+            <PreProfilePage setIsPreProfileSidebarActive={setIsPreProfileSidebarActive} setIsPreProfileSidebarEnter={setIsHistoryNavigationEnter}/>
             <PreProfileHero />
-            <PreProfileFooter />
+            {/* <PreProfileFooter /> */}
+        </Route>
+        <Route>
+            <PreProfileSidebar isPreProfileSidebarActive={isPreProfileSidebarActive} setIsPreProfileSidebarActive={setIsPreProfileSidebarActive} isPreProfileSidebarEnter={isPreProfileSidebarEnter} setIsPreProfileSidebarEnter={setIsPreProfileSidebarEnter}/>
         </Route>
         <Route exact path="/history">
             <History setIsHistorySidebarActive={setIsHistorySidebarActive} setIsHistorySidebarEnter={setIsHistorySidebarEnter}/>
-            <HistoryHero />
-            {/* <HistoryFooter /> */}
+            <HistoryHero setIsHistoryNavigationActive={setIsHistoryNavigationActive} setIsHistoryNavigationEnter={setIsHistoryNavigationEnter}/>
+            <HistoryFooter />
         </Route>
         <Route>
             <HistorySidebar isHistorySidebarActive={isHistorySidebarActive} setIsHistorySidebarActive={setIsHistorySidebarActive} isHistorySidebarEnter={isHistorySidebarEnter} setIsHistorySidebarEnter={setIsHistorySidebarEnter}/>
+        </Route>
+        <Route>
+            <HistoryNavigation isHistoryNavigationActive={isHistoryNavigationActive} setIsHistoryNavigationActive={setIsHistoryNavigationActive} isHistoryNavigationEnter={isHistoryNavigationEnter} setIsHistoryNavigationEnter={setIsHistoryNavigationEnter}/>
         </Route>
         <Route exact path="/dashboard">
             <Dashboard />
@@ -146,6 +158,9 @@ const Index = () => {
         }
         {
             isPostNavigationActive && <Overlay type="postnavigation" state={isPostNavigationActive} callback={setIsPostNavigationActive}/>
+        }
+        {
+            isHistoryNavigationActive && <Overlay type="historyNavigation" state={isHistoryNavigationActive} callback={setIsHistoryNavigationActive}/>
         }
     </div>
   )

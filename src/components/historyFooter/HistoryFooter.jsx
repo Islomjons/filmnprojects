@@ -86,6 +86,10 @@ const HistoryFooter = () => {
                     </li>
                 </ul>
             </div>
+            <div className="footer__bottom10">
+                <p className="footer__bottom__text10">© filmnWho 2021. All rights reserved</p>
+                <p className="footer__bottom__text10">Terms and Conditions</p>
+            </div>
         </div>
     </div>
   )

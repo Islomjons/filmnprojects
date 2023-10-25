@@ -89,7 +89,7 @@ const MethodFooter = () => {
             <div className="footer__bottomp">
                 <p className="footer__bottom__textp">© filmnWho 2021. All rights reserved</p>
                 <p className="footer__bottom__textp">Terms and Conditions</p>
-          </div>
+            </div>
     </div>
 </div>
   )

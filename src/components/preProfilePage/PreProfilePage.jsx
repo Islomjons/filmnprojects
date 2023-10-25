@@ -7,8 +7,9 @@ import preProfilePageYoutubeLogo from "../../assets/images/headerLogoYoutube.svg
 import preProfilePagePostLogo from "../../assets/images/post.svg"
 import preProfilePageBallLogo from "../../assets/images/ball.svg"
 import preProfilePageHeadLogo from "../../assets/images/face.svg"
+import { GiHamburgerMenu } from "react-icons/gi"
 
-const PreProfilePage = () => {
+const PreProfilePage = ({setIsPreProfileSidebarActive}) => {
   return (
     <div className='preProfilePage'>
         <div className='container'>
@@ -20,25 +21,28 @@ const PreProfilePage = () => {
                 <ul className='preProfilePage__list'>
                     <li className='preProfilePage__item active__preProfilePage__item'>
                         <Link className='preProfilePage__item__link'>
-                            <img src={preProfilePageLogo} alt="" />
+                            <img className='preProfilePage__item__logo' src={preProfilePageLogo} alt="" />
                             <p className='preProfilePage__item__text'>Pre-production</p>
                         </Link>
                     </li>
                     <li className='preProfilePage__item'>
                         <Link className='preProfilePage__item__link'>
-                            <img src={preProfilePageYoutubeLogo} alt="" />
+                            <img className='preProfilePage__item__logo' src={preProfilePageYoutubeLogo} alt="" />
                             <p className='preProfilePage__item__text active__preProfilePage__item__text'>Production</p>
                         </Link>
                     </li>
                     <li className='preProfilePage__item'>
                         <Link className='preProfilePage__item__link'>
-                            <img src={preProfilePagePostLogo} alt="" />
+                            <img className='preProfilePage__item__logo' src={preProfilePagePostLogo} alt="" />
                             <p className='preProfilePage__item__text active__preProfilePage__item__text'>Post-production</p>
                         </Link>
                     </li>
                 </ul>
 
                 <div className='preProfilePage__right'>
+                    <button className='preProfilePage__right__btn' onClick={() => {setIsPreProfileSidebarActive(true)}}>
+                        <GiHamburgerMenu />
+                    </button>
                     <Link>
                         <img className='preProfilePage__right__img1' src={preProfilePageBallLogo} alt="" />
                     </Link>

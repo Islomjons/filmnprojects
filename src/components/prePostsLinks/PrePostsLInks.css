@@ -21,7 +21,8 @@
 .prePostsLinks__left__side::after {
     content: "";
     display: inline-block;
-    width: 415px;
+    max-width: 415px;
+    width: 100%;
     border-bottom: 1px solid #4261cc1a;
     margin-top: 20px;
     margin-bottom: 13px;
@@ -82,18 +83,19 @@
 
 .postsLinks__main__wrapper {
     display: flex;
-    gap: 479px;
+    gap: 157px;
 }
 
 .postsLinks__main__left {
-    max-width: 101px;
+    max-width: 424px;
     width: 100%;
 }
 
 .postsLinks__main__left::after {
     content: "";
     display: inline-block;
-    width: 415px;
+    max-width: 415px;
+    width: 100%;
     border-bottom: 1px solid #4261cc1a;
     margin-top: 18px;
     margin-bottom: 20px;
